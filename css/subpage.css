@@ -1,0 +1,42 @@
+body{
+    background-color: hsl(240,20%,20%);
+    color: white;
+    font-size: 40px;
+}
+
+h1{
+    height: 100px;
+    font-size: 50px;
+    display: inline-block;
+    position: relative;
+    left: 960px;
+    transform: translateX(-50%);
+}
+
+img{
+    height: 700px;
+    width: 700px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+}
+
+#left{
+    width: 900px;
+    position: absolute;
+}
+
+#right{
+    width: 900px;
+    position: absolute;
+    left: 960px
+}
+
+p{
+    text-align: center;
+}
+
+ul, ol{
+    font-size: 30px;
+}

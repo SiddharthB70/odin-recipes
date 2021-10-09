@@ -18,6 +18,10 @@ h1{
     transform: translateX(-50%);
 }
 
+a, a:visited{
+    color: white;
+}
+
 .recipediv{
     width: 400px;
     height: 400px;
@@ -29,7 +33,6 @@ h1{
     width: 100%;
     height: 100%;
     opacity: 0.5;
-    position: absolute;
     border-radius: 20px;
 }
 

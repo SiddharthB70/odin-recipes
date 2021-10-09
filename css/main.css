@@ -1,0 +1,68 @@
+body{
+    background-color: hsl(240,20%,20%);
+    color: white;
+    font-size: 40px;
+}
+
+#odinlogo{
+    position: relative;
+    left: 960px;
+    transform: translateX(-50%);
+}
+
+h1{
+    font-size: 50px;
+    display: inline-block;
+    position: relative;
+    left: 960px;
+    transform: translateX(-50%);
+}
+
+.recipediv{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 450px;
+}
+
+.recipeimg{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.recipediv:hover{
+    animation-name: item;
+    animation-duration: 200ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes item{
+    100%{
+        transform: scale(1.3);
+    }
+}
+
+#first{
+    left:240px;
+}
+
+#second{
+    left: 760px;
+}
+
+#third{
+    left: 1280px;
+}
+
+p{  
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
